@@ -2,7 +2,7 @@
 
 A free Figma Community recipe-app design built as a Flutter app for Android and the web, wired to a live recipe API. You can save recipes and build a shopping list, and both still work offline.
 
-**Live demo (web):** _coming soon_ · **Android APK:** _coming soon (GitHub Releases)_
+**Live demo (web):** [ianquilatanwe.github.io/recipe-finder-flutter](https://ianquilatanwe.github.io/recipe-finder-flutter/) · **Android APK:** [v1.0.0 on GitHub Releases](https://github.com/ianquilatanwe/recipe-finder-flutter/releases/tag/v1.0.0)
 
 ![The Figma design next to the built app](docs/figma-vs-build.png)
 
