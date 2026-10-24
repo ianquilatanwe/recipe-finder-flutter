@@ -2,7 +2,7 @@
 
 A free Figma Community recipe-app design built as a Flutter app for Android and the web, wired to a live recipe API. You can save recipes and build a shopping list, and both still work offline.
 
-**Live demo (web):** [ianquilatanwe.github.io/recipe-finder-flutter](https://ianquilatanwe.github.io/recipe-finder-flutter/) · **Android APK:** [v1.0.0 on GitHub Releases](https://github.com/ianquilatanwe/recipe-finder-flutter/releases/tag/v1.0.0)
+**Live demo (web):** [recipe-finder-flutter.pages.dev](https://recipe-finder-flutter.pages.dev/) · **Android APK:** [v1.0.0 on GitHub Releases](https://github.com/ianquilatanwe/recipe-finder-flutter/releases/tag/v1.0.0)
 
 ![The Figma design next to the built app](docs/figma-vs-build.png)
 
@@ -85,7 +85,6 @@ Screens only lay things out. Data access and stored state each live in one file.
 | [`lib/widgets/`](lib/widgets) | Recipe card + grid sizing, save button, status view (empty / error / offline), `FocusCard` (keyboard focus ring), `showSnack` (every snackbar), About & credits |
 | [`lib/theme.dart`](lib/theme.dart) | Colours from the kit (contrast-fixed), font, component themes |
 | [`test/screens_test.dart`](test/screens_test.dart) | Every screen (both shopping views) at 3 sizes × 100% / 200% text: no overflow, 48 dp targets, labels, contrast. Offline and error states, snackbars, combined shopping rows |
-| [`.github/workflows/pages.yml`](.github/workflows/pages.yml) | Analyze, test, build and deploy the web app to GitHub Pages on each push |
 
 ### Architecture choices
 
@@ -125,6 +124,8 @@ Checks:
 flutter analyze
 flutter test
 ```
+
+The web demo is hosted on Cloudflare Pages, which rebuilds it on every push to `main` (it installs Flutter 3.44.9, runs `flutter build web --release` and serves `build/web`).
 
 ## Credits
 

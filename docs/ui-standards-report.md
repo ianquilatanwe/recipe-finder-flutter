@@ -147,7 +147,7 @@ Must   ✅ 25  ❌ 0  ⚠️ 1 (framework)   Should ✅ 16  ⚠️ 3   Nice ✅ 
 - ✅ Should · Timeouts · requests end after 10 s with an error state.
 - ✅ Should · Bundle · three packages: `flutter_riverpod` (state), `http` (web
   needs it), `shared_preferences` (offline saves). Fonts and icons are bundled.
-- — Not measured: LCP/INP (they need the deployed GitHub Pages URL).
+- — Not measured: LCP/INP (not yet measured on the live Cloudflare Pages site).
 - — N/A · Error boundary: React-only item · Service worker: Flutter's own was
   removed upstream; offline here means saved data, not the app shell.
 
@@ -182,8 +182,8 @@ Must   ✅ 25  ❌ 0  ⚠️ 1 (framework)   Should ✅ 16  ⚠️ 3   Nice ✅ 
   description, `lang="en"`, Open Graph tags and `theme-color`.
 - ✅ Nice · Favicon/app icons · custom R-on-plate icon for web, the PWA
   manifest and Android.
-- ✅ Nice · Social preview · `og:image` points to the Pages URL (live after
-  deploy).
+- ✅ Nice · Social preview · `og:image` points to the live Cloudflare Pages
+  URL.
 - ✅ Must · No secrets · TheMealDB's public test key "1" is part of the URL by
   design and is not secret.
 
