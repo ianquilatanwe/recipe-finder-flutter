@@ -133,4 +133,4 @@ The web demo is hosted on Cloudflare Pages, which rebuilds it on every push to `
 - Recipes and images: [TheMealDB](https://www.themealdb.com), using its free test key for development and educational use. Because of that key, this demo isn't published to an app store.
 - Font: [Sofia Sans](https://github.com/lettersoup/Sofia-Sans), SIL Open Font License ([`assets/fonts/OFL.txt`](assets/fonts/OFL.txt)).
 
-Built by [Ian Quilatan](https://github.com/ianquilatanwe), available for small Flutter and frontend jobs [on Upwork](https://www.upwork.com/freelancers/~011c7ba66b3e0501a5).
+Built by [Ian Quilatan](https://github.com/ianquilatanwe), available for small Flutter and frontend jobs [on Upwork](https://www.upwork.com/freelancers/ianquilatan).
